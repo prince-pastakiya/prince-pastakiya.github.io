@@ -146,6 +146,20 @@ section {
 	animation-delay: 1s;
 }
 
+.home-img {
+	display: inline-block;
+	margin-right: 10px;
+	height: 32px;
+	padding: 0 15px;
+	line-height: 32px;
+	font-size: 20px;
+	font-weight: 500;
+	border-radius: 5px;
+	opacity: 0;
+	animation: slideBottom 1s ease forwards;
+	animation-delay: 2s;
+}
+
 .home-text h1 {
 	font-size: 5rem;
 	font-weight: 700;
@@ -279,6 +293,11 @@ header.sticky {
 .about-img img {
 	height: auto;
 	width: 430px;
+}
+
+.home-img img {
+	height: 400px;
+	width: 400px;
 }
 
 .about-text h2 {
@@ -690,6 +709,17 @@ form textarea {
 	}
 
 	.about-img img {
+		width: 100%;
+		height: auto;
+		max-width: 100%;
+	}
+
+	.home-img {
+		text-align: center;
+		order: 2;
+	}
+
+	.home-img img {
 		width: 100%;
 		height: auto;
 		max-width: 100%;
