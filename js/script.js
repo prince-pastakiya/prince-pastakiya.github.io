@@ -1,9 +1,9 @@
 var typed = new Typed(".multiple-text", {
 	strings: [
-		"Photographer and Designer.",
-		"Coder.",
-		"Web Developer.",
-		"Software Developer.",
+		"Data Engineer",
+		"Data Analyst",
+		"Full Stack Developer",
+		"Software Developer",
 	],
 	typeSpeed: 10,
 	backSpeed: 10,
